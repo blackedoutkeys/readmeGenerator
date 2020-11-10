@@ -16,13 +16,17 @@ function generateMarkdown(data, githubProfile) {
 
   -[Test](#Test) <br>
 
+  -[License](#License) <br>
+
   -[GitHub](#Github) <br>
+
+  -[Questions](#Questions) <br>
 
   ## Description
   ${data.description}
 
   ## Installation
-  ${data.install}
+  ${data.installation}
 
   ## Contributions
   ${data.contribution}
@@ -30,8 +34,14 @@ function generateMarkdown(data, githubProfile) {
   ## Test
   ${data.test}
 
+  ## License
+  ${data.license}
+
   ## GitHub
   Username: ${gitHubProfile.name} <br>
+
+  ## Questions 
+  ${data.questions}
 
   Profile Link below <br>
   -${gitHubProfile.profile}
