@@ -1,12 +1,13 @@
+//global variables
+
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMD = require('./utils/generateMarkdown');
-const api = require('./utils/githubapi.js');
-const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown');
+// const api = require('./utils/githubapi.js');
+const util = require('util');
 
 
-// array of questions for user
+// array of questions for user to enter answers
 const questions = [{
         type: "input",
         name: "title",
@@ -67,30 +68,22 @@ function writeToFile (fileName, data) {
 };
  
 // function to initialize program
-async function init() {
-
-    try {
-        const userResponses = await inquirer.prompt(questions);
-        console.log('Your responses:', userResponses);
-        console.log('Thanks! Now gathering your Github information...');
-
-        // github questions via API
-        const userInfo = await api.getUser(userResponses);
-        console.log('Your Github user information:', userInfo);
-
-        //data is transferred from user responses into the markdown location
-        console.log('Generating your README.md file...');
-        const markdown = generateMarkdown(userResponses, userInfo);
-        console.log(markdown);
-
-        //now the information is inputted into the markdown file
-        await asyncWriteFile('README.md', markdown);
-
-    } catch (err) {
-        console.log(err);
-    }
-};
+function init() {
+    return inquirer.prompt(questions)
+}
+    
 
 
 // function call to initialize program
-init();
+init() 
+.then(function(answers) {
+    var file = answers.title.toLowerCase().split(" ").join("");
+    fs.writeFile(file + ".md", generateMarkdown(answers), function(err){
+        if (err){
+            return console.log(err);
+        }
+    });
+})
+.catch(function(err){
+    console.log(err);
+});

@@ -1,10 +1,10 @@
 // function to generate markdown for README
-function generateMarkdown(data, githubProfile) {
+function generateMarkdown(data) {
   return `
   
   ## *${data.title}*
   
-  ${data.badge ==="Apache" ? "## Apache <br> [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)" : data.badge ==="MIT" ? " ## MIT <br> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)" : data.badge==="IBM" ? " ## IBM <br> [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)" : " ## Perl <br> [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)"}
+  ${data.license === "MIT License" ? "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)" : data.license === "Apache License v2.0" ? "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)" : data.license === "GNU General Public License v3.0" ? "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)" : ""}
   
   ## Table of Contents
 
@@ -38,13 +38,13 @@ function generateMarkdown(data, githubProfile) {
   ${data.license}
 
   ## GitHub
-  Username: ${gitHubProfile.name} <br>
+  https://github.com/${data.github} <br>
 
   ## Questions 
   ${data.questions}
 
   Profile Link below <br>
-  -${gitHubProfile.profile}
+  https://github.com/${data.github} <br>
 `;
 
 }
