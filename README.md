@@ -2,7 +2,7 @@
   
   ## *README Generator*
   
-    This is an application that generates a README file for your project based on multiple prompts using the command line. Utilizing Node.js, you can run the index file which will then prompt the user with multiple questions, which will in turn, populate a functioning README file.
+  This is an application that generates a README file for your project based on multiple prompts using the command line. Utilizing Node.js, you can run the index file which will then prompt the user with multiple questions, which will in turn, populate a functioning README file.
 
   [YouTube Demo](https://youtu.be/ZViXvWWyRsA)
 
@@ -29,7 +29,10 @@
   This is an application that generates a README file for your project based on multiple prompts using the command line. Utilizing Node.js, you can run the index file which will then prompt the user with multiple questions, which will in turn, populate a functioning README file.
 
   ## Installation
-  
+  No special instructions are needed to install this project. Project does include usage of:
+
+  * Inquirer.js to prompt the user for information about their project.
+  * A working table of contents which will link you to each section of the readme.
 
   ## Images
 
@@ -46,10 +49,10 @@
   Copyright 2020 Isaac Frishman
 
   ## GitHub
-  [Link](https://github.com/blackedoutkeys/readmeGenerator) <br>
+  [Direct Link To Project](https://github.com/blackedoutkeys/readmeGenerator) <br>
 
   ## Questions 
-  [Email](ifrishman89@gmail.com)
+  [Email Owner](ifrishman89@gmail.com)
 
   Profile Link below <br>
-  [Link](https://github.com/blackedoutkeys) <br>
+  [Github Profile](https://github.com/blackedoutkeys) <br>
