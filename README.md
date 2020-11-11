@@ -9,21 +9,21 @@
   
   ## Table of Contents
 
-  *[Features](#Features) <br>
+  * [Features](#Features) <br>
 
-  *[Images](#Images) <br>
+  * [Images](#Images) <br>
 
-  *[Installation](#Installation) <br>
+  * [Installation](#Installation) <br>
 
-  *[Contributions](#Contributions) <br>
+  * [Contributions](#Contributions) <br>
 
-  *[Test](#Test) <br>
+  * [Test](#Test) <br>
 
-  *[License](#License) <br>
+  * [License](#License) <br>
 
-  *[GitHub](#Github) <br>
+  * [GitHub](#Github) <br>
 
-  *[Questions](#Questions) <br>
+  * [Questions](#Questions) <br>
 
   ## Features
   This is an application that generates a README file for your project based on multiple prompts using the command line. Utilizing Node.js, you can run the index file which will then prompt the user with multiple questions, which will in turn, populate a functioning README file.
