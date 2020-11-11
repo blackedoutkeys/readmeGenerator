@@ -4,7 +4,7 @@
   
     This is an application that generates a README file for your project based on multiple prompts using the command line. Utilizing Node.js, you can run the index file which will then prompt the user with multiple questions, which will in turn, populate a functioning README file.
 
-  [YouTube Demo](https://www.youtube.com/watch?v=4yYmABBESfI&feature=youtu.be)
+  [YouTube Demo](https://youtu.be/ZViXvWWyRsA)
 
   
   ## Table of Contents
