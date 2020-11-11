@@ -1,8 +1,8 @@
 
   
-  ## *coolio*
+  ## *This is the best app in the world*
   
-  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+  [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
   
   ## Table of Contents
 
@@ -21,25 +21,25 @@
   -[Questions](#Questions) <br>
 
   ## Description
-  this is test number 2
+  As stated in the title. This is the best. project. in. the. world.
 
   ## Installation
-  no 
+  `npm i install`
 
   ## Contributions
-  asdiufhg
+  I am the captain now
 
   ## Test
-  kaj ushdfp8iqwer 
+  no instructions necessary
 
   ## License
-  f9uh a897fha[9fh
+  
 
   ## GitHub
-  https://github.com/r982yh3r 98whefsahdf <br>
+  https://github.com/isaachayes <br>
 
   ## Questions 
-  none
+  
 
   Profile Link below <br>
-  https://github.com/r982yh3r 98whefsahdf <br>
+  https://github.com/isaachayes <br>

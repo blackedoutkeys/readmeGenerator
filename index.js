@@ -8,7 +8,13 @@ const util = require('util');
 
 
 // array of questions for user to enter answers
-const questions = [{
+const questions = [
+    {
+        type: "input",
+        name: "contributors",
+        message: "Welcome to the README generator! Please enter the names for all contributors on the project."
+    },
+    {
         type: "input",
         name: "title",
         message: "What is the title of your project?"
@@ -16,13 +22,18 @@ const questions = [{
     {
         type: "input",
         name: "description",
-        message: "Please enter a brief description of your project"
+        message: "Please enter a brief description of your project."
     },
     {
         type: "list",
-        name: "badge",
-        message: "Choose from the following badges",
-        choices: ['MIT', 'Apache', 'IBM', 'Perl']
+        name: "license",
+        message: "Choose an option regarding licensure for your project.",
+        choices: [
+            "Apache",
+            "MIT",
+            "IBM",
+            "Perl"
+        ]
     },
     {
         type: "input",
@@ -31,18 +42,13 @@ const questions = [{
     },
     {
         type: "input",
-        name: "contribution",
-        message: "Please list any contribution guidelines"
-    },
-    {
-        type: "input",
         name: "test",
         message: "Please list any test instructions"
     },
     {
         type: "input",
-        name: "license",
-        message: "Please provide a license for the application.",
+        name: "email",
+        message: "Please provide an email for the contributor.",
     },
     {
         type: "input",
@@ -55,6 +61,11 @@ const questions = [{
         message: "Please provide any and all questions or concerns for support"
     },
 ];
+
+
+// UI VARIABLES
+var userInterface = new inquirer.ui.BottomBar();
+userInterface.log.write("          WELCOME TO THE README GENERATOR          ");
 
 
 //function to write the README file
