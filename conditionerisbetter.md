@@ -2,7 +2,7 @@
   
   ## *Conditioner is Better*
   
-  [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   ## Table of Contents
 
@@ -21,7 +21,7 @@
   -[Questions](#Questions) <br>
 
   ## Description
-  This is a project designed to prove whether or not conditioner is better than shampoo
+  This is to finally prove if conditioner is better than shampoo.
 
   ## Installation
   `npm i intproj`
@@ -33,7 +33,7 @@
   `const intproj = require("intproj");`
 
   ## License
-  Licensed under undefined
+  Licensed under Apache
 
   ## Email
   ifrishman89@gmail.com
@@ -42,7 +42,7 @@
   https://github.com/blackedoutkeys <br>
 
   ## Questions 
-  I dont know if it is or not
+  I think shampoo might actually be better.
 
   Profile Link below <br>
   https://github.com/blackedoutkeys <br>

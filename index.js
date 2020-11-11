@@ -43,22 +43,22 @@ const questions = [
     {
         type: "input",
         name: "test",
-        message: "Please list any test instructions"
+        message: "Please list any test instructions:"
     },
     {
         type: "input",
         name: "email",
-        message: "Please provide an email for the contributor.",
+        message: "Please provide an email for the contributo:",
     },
     {
         type: "input",
         name: "github",
-        message: "Please enter your Github username to link"
+        message: "Please enter your Github username to link:"
     },
     {
         type: "input",
         name: "questions",
-        message: "Please provide any and all questions or concerns for support"
+        message: "Please provide any and all questions or concerns for support:"
     },
 ];
 
