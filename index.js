@@ -48,7 +48,7 @@ const questions = [
     {
         type: "input",
         name: "email",
-        message: "Please provide an email for the contributo:",
+        message: "Please provide an email for the contributor:",
     },
     {
         type: "input",
